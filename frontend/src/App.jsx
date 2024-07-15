@@ -1,11 +1,13 @@
-import Grid from '@mui/material/Grid';
+import { Header } from './components/organisms/Header';
+import { AppRouter } from './AppRouter';
 
 function App() {
 
   return (
-    <Grid container sx={{ margin: '0' }} justifyContent={'center'}>
-
-    </Grid>
+    <>
+      <Header />
+      <AppRouter />
+    </>
   )
 }
 

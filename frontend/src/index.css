@@ -3,8 +3,31 @@
   --secondaryBlack: #13141E;
 }
 
+@font-face {
+  font-family: Fredoka;
+  src: url(./assets/fonts/Fredoka-Medium.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: var(--mainBlack);
+}
+
+.header_logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+.header_bg {
+  background-color: #18181b61 !important;
+  backdrop-filter: blur(10px);
+}
+
+.categoryIcon {
+  max-width: 80px;
+}
+
+.categoryGit {
+  filter: invert();
 }
