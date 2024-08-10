@@ -14,13 +14,15 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Logo from '../../assets/images/logo.png'
 import { useTheme } from '@emotion/react';
+import { useNavigate } from 'react-router';
 
-const pages = ['Inicio', 'Ranking', 'Estadísticas'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 export const Header = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+    const navigate = useNavigate();
 
     const theme = useTheme();
 
@@ -38,10 +40,6 @@ export const Header = () => {
     const handleCloseUserMenu = () => {
         setAnchorElUser(null);
     };
-
-    const handleNavigate = () => {
-
-    }
 
     return (
         <AppBar position="fixed" className='header_bg'>
@@ -84,14 +82,14 @@ export const Header = () => {
                                 }
                             }}
                         >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
+                            
+                                <MenuItem onClick={()=>navigate('/')}>
+                                    <Typography textAlign="center">Inicio</Typography>
                                 </MenuItem>
-                            ))}
+                            
                         </Menu>
                     </Box>
-                    <img src={Logo} className='header_logo' onClick={handleNavigate}></img>
+                    <img src={Logo} className='header_logo' onClick={()=>navigate('/')}></img>
 
                     <Typography
                         variant="h5"
@@ -111,18 +109,17 @@ export const Header = () => {
                     >
                     </Typography>
                     <Box sx={{ flexGrow: 1, gap: '3px', display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
+                        
                             <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
+                                onClick={()=>navigate('/')}
                                 sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Fredoka', letterSpacing: '.2rem' }}
                             >
-                                {page}
+                                Inicio
                             </Button>
-                        ))}
+
                     </Box>
 
-                    <Box sx={{ flexGrow: 0 }}>
+                    {/* <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -150,7 +147,7 @@ export const Header = () => {
                                 </MenuItem>
                             ))}
                         </Menu>
-                    </Box>
+                    </Box> */}
                 </Toolbar>
             </Container>
         </AppBar>
