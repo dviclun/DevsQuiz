@@ -1,5 +1,6 @@
 import { Header } from './components/organisms/Header';
 import { AppRouter } from './AppRouter';
+import { Footer } from './components/atoms/Footer';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <AppRouter />
+      <Footer />
     </>
   )
 }

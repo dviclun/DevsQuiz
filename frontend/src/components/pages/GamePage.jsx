@@ -2,6 +2,7 @@ import { useTheme } from '@emotion/react';
 import { Button, Grid, Typography, useMediaQuery } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router'
+import { GameBoard } from '../molecules/GameBoard';
 
 export const GamePage = () => {
 
@@ -12,13 +13,39 @@ export const GamePage = () => {
     const [category, setCategory] = useState('');
 
     const [preStartCounter, setPreStartCounter] = useState(null);
-    const [playingCounter, setPlayingCounter] = useState(30);
+    const [playingCounter, setPlayingCounter] = useState(60);
     const [isPlaying, setIsPlaying] = useState(false);
+    const [loadingQuestions, setLoadingQuestions] = useState(false);
+    const [questions, setQuestions] = useState([]);
+    const [timeFinished, setTimeFinished] = useState(false);
 
 
 
-    const handleStartCounter = () => {
-        setPreStartCounter(3);
+    const handleStartGame = () => {
+
+        setLoadingQuestions(true);
+
+        let body = {
+            tech: location.state.category
+        }
+
+        let fetchConf = {
+            method: 'POST',
+            body: JSON.stringify(body), 
+            headers: {
+                "Content-Type": "application/json"
+            }
+        }
+
+        fetch("http://localhost:3000/getQuestions", fetchConf)
+            .then(res => res.json())
+            .then(data => {
+                setQuestions(data);
+                setLoadingQuestions(false);
+                setPreStartCounter(3);
+            })
+            .catch(error => console.log(error))
+
     }
 
     useEffect(()=> {
@@ -33,23 +60,6 @@ export const GamePage = () => {
             setIsPlaying(true);
         }
 
-        let body = {
-            tech: 'css'
-        }
-
-        let fetchConf = {
-            method: 'POST',
-            body: JSON.stringify(body), 
-            headers: {
-                "Content-Type": "application/json"
-            }
-        }
-
-        fetch("http://localhost:3000/getQuestions", fetchConf)
-            .then(res => res.json())
-            .then(data => console.log(data))
-            .catch(error => console.log(error))
-
     }, [preStartCounter])
 
     useEffect(()=> {
@@ -59,6 +69,10 @@ export const GamePage = () => {
                 setPlayingCounter(playingCounter - 1);
             } 
         }, 1000);
+       }
+
+       if(playingCounter === 0) {
+        setTimeFinished(true);
        }
     },[isPlaying, playingCounter]);
 
@@ -82,17 +96,23 @@ export const GamePage = () => {
 
     return (
     <Grid container className='gameContainer'>
-        <Grid item>
+        <Grid item sx={{marginTop: '4em'}}>
             <Typography variant={isExtraSmall ? 'h3' : 'h1'} sx={{ color: theme.palette.mainBlue, textAlign: 'center', fontFamily: 'Fredoka', letterSpacing: '.2rem', marginTop: '20px' }}>{category}</Typography>
-            <Typography variant={isExtraSmall ? 'subtitle2' : 'h6'} sx={{ color: 'white', textAlign: 'center', marginTop: '20px' }}>Responde el máximo de preguntas posible en 30 segundos</Typography>
+            {
+                (!isPlaying)
+                ? <Typography variant={isExtraSmall ? 'subtitle2' : 'h6'} sx={{ color: 'white', textAlign: 'center', marginTop: '20px', padding: '1em' }}>Responde el máximo de preguntas posible en un minuto</Typography>
+                : <></>
+            }
         </Grid>
-        <Grid item display={'flex'} justifyContent={'center'} sx={{marginTop: '3em'}}>
+        <Grid item display={'flex'} justifyContent={'center'} sx={{marginTop: '3em', minWidth: '80%'}}>
             {
                 (preStartCounter != null) 
-                ? <Typography sx={{color: 'white'}}>{preStartCounter}</Typography>
+                ? <Typography variant='h5' sx={{color: 'white'}}>{preStartCounter}</Typography>
                 : (isPlaying)
-                    ? <Typography sx={{color: theme.palette.mainBlue}}>{playingCounter}</Typography>
-                    : <Button onClick={handleStartCounter} sx={buttonStyle} variant='contained' disableElevation>Comenzar juego</Button>
+                    ? <GameBoard questions={questions} playingCounter={playingCounter} timeFinished={timeFinished}/>
+                    : (loadingQuestions)
+                      ? <Typography sx={{color: theme.palette.mainBlue}}>Loading...</Typography>
+                      : <Button onClick={handleStartGame} sx={buttonStyle} variant='contained' disableElevation>Comenzar juego</Button>
             } 
         </Grid>
     </Grid>

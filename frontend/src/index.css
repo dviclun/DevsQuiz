@@ -39,6 +39,7 @@ body {
 
 .gameContainer {
   min-height: 100vh;
+  min-width: 100%;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
@@ -66,6 +67,86 @@ body {
   left: 20%;
   filter: blur(100px);
 }
+
+.answerContainer {
+  margin: 1em !important;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.questionContainer {
+  padding: 1em;
+  margin-top: 3em !important;
+  min-height: 100px !important;
+  height: fit-content;
+}
+
+.answerContainerHover:hover{
+  cursor: pointer;
+  transform: scale(102%);
+  box-shadow: 0px 0px 25px -8px rgba(0,230,246,1);
+}
+
+.correctAnswer{
+  box-shadow: 0px 0px 25px -8px rgb(0, 246, 86);
+}
+
+.incorrectAnswer {
+  box-shadow: 0px 0px 25px -8px rgb(246, 0, 0);
+}
+
+.correctText{
+  text-shadow: 0px 0px 15px rgb(0, 246, 86) !important;
+}
+
+.incorrectText {
+  text-shadow: 0px 0px 15px rgb(246, 0, 0);
+
+}
+
+.blueBoldText {
+  color: var(--mainBlue);
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.correctAnswerResults{
+  box-shadow: 0px 0px 15px -8px rgb(0, 246, 86);
+}
+
+.incorrectAnswerResults{
+  box-shadow: 0px 0px 15px -8px rgb(246, 0, 0);
+}
+
+.footerLink{
+  color: white;
+}
+
+.footerIconLink {
+  text-decoration: none;
+  height: fit-content;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.footerIconLink:hover {
+  transform: scale(110%);
+  transition: all ease-in 0.3s;
+}
+
+.footerIcon {
+  width: 25px;
+  height: 25px;
+  filter: invert();
+}
+
+
+.footerLinkedinIcon {
+  filter: brightness(0%) invert();
+}
+
 
 @keyframes blink {
   0% {
