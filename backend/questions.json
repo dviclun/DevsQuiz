@@ -1,0 +1,2640 @@
+[{
+  "_id": "66b8cc6cf5e690fc1343ec60",
+  "question": "¿Que regla define el color de fondo de un elemento?",
+  "answers": [
+    "background-color",
+    "text-color",
+    "font-color",
+    "background"
+  ],
+  "correct": "background-color",
+  "category": "css"
+},
+{
+  "_id": "66b8ce0cf5e690fc1343ec61",
+  "question": "¿Que regla cambia el tamaño de la fuente en css?",
+  "answers": [
+    "font-weight",
+    "text-size",
+    "font-size",
+    "font-style"
+  ],
+  "correct": "font-size",
+  "category": "css"
+},
+{
+  "_id": "66b8cefbf5e690fc1343ec63",
+  "question": "¿Cuál de los siguientes ejemplos es un selector de clase?",
+  "answers": [
+    ".clase",
+    "#clase",
+    "clase",
+    "_clase"
+  ],
+  "correct": ".clase",
+  "category": "css"
+},
+{
+  "_id": "66b9ecd7b2fd8ae3fdcdec3b",
+  "question": "¿Cuál propiedad CSS se utiliza para establecer la distancia entre el contenido de un elemento y su borde?",
+  "answers": [
+    "padding",
+    "margin",
+    "border-spacing",
+    "outline-offset"
+  ],
+  "correct": "padding",
+  "category": "css"
+},
+{
+  "_id": "66b9ed69b2fd8ae3fdcdec3c",
+  "question": "¿Cuál de las siguientes propiedades CSS se usa para hacer que un elemento sea completamente transparente?",
+  "answers": [
+    "visibility",
+    "opacity",
+    "transparent",
+    "display"
+  ],
+  "correct": "opacity",
+  "category": "css"
+},
+{
+  "_id": "66b9ee06b2fd8ae3fdcdec3d",
+  "question": "¿Qué propiedad CSS se utiliza para cambiar el color del texto?",
+  "answers": [
+    "text-color",
+    "font-color",
+    "color",
+    "text-shadow"
+  ],
+  "correct": "color",
+  "category": "css"
+},
+{
+  "_id": "66b9ee2ab2fd8ae3fdcdec3e",
+  "question": "¿Cómo haces que un elemento ocupe todo el ancho de su contenedor padre en CSS?",
+  "answers": [
+    "width: 100%;",
+    "full-width: true;",
+    "max-width: 0;",
+    "container-width: auto;"
+  ],
+  "correct": "width: 100%;",
+  "category": "css"
+},
+{
+  "_id": "66b9ee52b2fd8ae3fdcdec3f",
+  "question": "¿Cuál propiedad CSS se usa para aplicar un fondo de imagen a un elemento?",
+  "answers": [
+    "background-color",
+    "image-background",
+    "background-image",
+    "img-background"
+  ],
+  "correct": "background-image",
+  "category": "css"
+},
+{
+  "_id": "66b9ee75b2fd8ae3fdcdec40",
+  "question": "¿Qué propiedad CSS permite crear un espacio entre las columnas de un diseño de grid?",
+  "answers": [
+    "column-spacing",
+    "grid-gap",
+    "gap",
+    "grid-spacing"
+  ],
+  "correct": "gap",
+  "category": "css"
+},
+{
+  "_id": "66b9ee99b2fd8ae3fdcdec41",
+  "question": "¿Cuál es el valor predeterminado de la propiedad position en CSS?",
+  "answers": [
+    "relative",
+    "static",
+    "absolute",
+    "fixed"
+  ],
+  "correct": "static",
+  "category": "css"
+},
+{
+  "_id": "66b9eeb5b2fd8ae3fdcdec42",
+  "question": "¿Cómo puedes aplicar estilos solo a un elemento p que es el primer hijo de su contenedor?",
+  "answers": [
+    "p:first",
+    "p:first-child",
+    "p:first-of-type",
+    "p:first-element"
+  ],
+  "correct": "p:first-child",
+  "category": "css"
+},
+{
+  "_id": "66b9eecdb2fd8ae3fdcdec43",
+  "question": "¿Cuál propiedad CSS se usa para hacer que el texto sea subrayado?",
+  "answers": [
+    "text-decoration: underline;",
+    "font-style: underline;",
+    "text-transform: underline;",
+    "text-align: underline;"
+  ],
+  "correct": "text-decoration: underline;",
+  "category": "css"
+},
+{
+  "_id": "66b9ef00b2fd8ae3fdcdec44",
+  "question": "¿Qué propiedad CSS se utiliza para cambiar la orientación de texto en una página?",
+  "answers": [
+    "writing-mode",
+    "text-orientation",
+    "text-direction",
+    "text-align"
+  ],
+  "correct": "writing-mode",
+  "category": "css"
+},
+{
+  "_id": "66b9ef18b2fd8ae3fdcdec45",
+  "question": "¿Cuál de las siguientes propiedades CSS se utiliza para ocultar un elemento pero mantener su espacio ocupado?",
+  "answers": [
+    "display: none",
+    "visibility: hidden",
+    "opacity: 0",
+    "overflow: hidden"
+  ],
+  "correct": "visibility: hidden",
+  "category": "css"
+},
+{
+  "_id": "66b9ef33b2fd8ae3fdcdec46",
+  "question": "¿Qué propiedad CSS define el comportamiento de un fondo cuando se repite?",
+  "answers": [
+    "background-repeat",
+    "background-size",
+    "background-clip",
+    "background-origin"
+  ],
+  "correct": "background-repeat",
+  "category": "css"
+},
+{
+  "_id": "66b9ef4db2fd8ae3fdcdec47",
+  "question": "¿Qué valor de la propiedad `position` posiciona un elemento en relación con su contenedor más cercano con posición relativa o absoluta?",
+  "answers": [
+    "fixed",
+    "absolute",
+    "static",
+    "relative"
+  ],
+  "correct": "absolute",
+  "category": "css"
+},
+{
+  "_id": "66b9ef68b2fd8ae3fdcdec48",
+  "question": "¿Cuál propiedad CSS se usa para agregar sombras a un elemento?",
+  "answers": [
+    "text-shadow",
+    "box-shadow",
+    "shadow",
+    "filter-shadow"
+  ],
+  "correct": "box-shadow",
+  "category": "css"
+},
+{
+  "_id": "66b9ef7cb2fd8ae3fdcdec49",
+  "question": "¿Qué propiedad CSS permite definir el orden de apilamiento de elementos superpuestos?",
+  "answers": [
+    "stack-order",
+    "z-index",
+    "layer-index",
+    "order"
+  ],
+  "correct": "z-index",
+  "category": "css"
+},
+{
+  "_id": "66b9ef93b2fd8ae3fdcdec4a",
+  "question": "¿Cuál propiedad CSS se usa para establecer el espacio entre líneas de texto?",
+  "answers": [
+    "text-indent",
+    "line-spacing",
+    "line-height",
+    "letter-spacing"
+  ],
+  "correct": "line-height",
+  "category": "css"
+},
+{
+  "_id": "66b9efaab2fd8ae3fdcdec4b",
+  "question": "¿Qué propiedad CSS se utiliza para crear un diseño de flexbox?",
+  "answers": [
+    "display: grid",
+    "display: flexbox",
+    "display: inline-flex",
+    "display: flex"
+  ],
+  "correct": "display: flex",
+  "category": "css"
+},
+{
+  "_id": "66b9ffe60db284c954cd0522",
+  "question": "¿Qué comando CLI de Angular se utiliza para crear un nuevo proyecto?",
+  "answers": [
+    "ng new",
+    "ng create",
+    "ng init",
+    "ng start"
+  ],
+  "correct": "ng new",
+  "category": "angular"
+},
+{
+  "_id": "66ba00180db284c954cd0523",
+  "question": "¿Qué decorador se utiliza para definir un componente en Angular?",
+  "answers": [
+    "@Component",
+    "@Directive",
+    "@Injectable",
+    "@NgModule"
+  ],
+  "correct": "@Component",
+  "category": "angular"
+},
+{
+  "_id": "66ba002b0db284c954cd0524",
+  "question": "¿Cuál es el propósito de la directiva `ngIf` en Angular?",
+  "answers": [
+    "Renderizar un elemento condicionalmente",
+    "Iterar sobre una lista de elementos",
+    "Establecer un enlace de datos bidireccional",
+    "Estilizar un elemento basado en una condición"
+  ],
+  "correct": "Renderizar un elemento condicionalmente",
+  "category": "angular"
+},
+{
+  "_id": "66ba00510db284c954cd0525",
+  "question": "¿Qué servicio de Angular se utiliza para realizar solicitudes HTTP?",
+  "answers": [
+    "HttpClient",
+    "HttpService",
+    "HttpModule",
+    "HttpRequest"
+  ],
+  "correct": "HttpClient",
+  "category": "angular"
+},
+{
+  "_id": "66ba00660db284c954cd0526",
+  "question": "¿Cuál de los siguientes módulos se debe importar para usar formularios en Angular?",
+  "answers": [
+    "FormsModule",
+    "ReactiveModule",
+    "HttpModule",
+    "BrowserModule"
+  ],
+  "correct": "FormsModule",
+  "category": "angular"
+},
+{
+  "_id": "66ba008f0db284c954cd0528",
+  "question": "¿Qué método en un servicio de Angular se utiliza para recibir datos de un API?",
+  "answers": [
+    "get()",
+    "post()",
+    "fetch()",
+    "receive()"
+  ],
+  "correct": "get()",
+  "category": "angular"
+},
+{
+  "_id": "66ba00a40db284c954cd0529",
+  "question": "¿Cuál es la herramienta de compilación predeterminada para Angular?",
+  "answers": [
+    "Webpack",
+    "Gulp",
+    "Grunt",
+    "Rollup"
+  ],
+  "correct": "Webpack",
+  "category": "angular"
+},
+{
+  "_id": "66ba00c00db284c954cd052a",
+  "question": "¿Cuál es el propósito del decorador `@Injectable` en Angular?",
+  "answers": [
+    "Marcar una clase como un servicio que puede ser inyectado",
+    "Definir un componente",
+    "Crear una directiva",
+    "Declarar un módulo"
+  ],
+  "correct": "Marcar una clase como un servicio que puede ser inyectado",
+  "category": "angular"
+},
+{
+  "_id": "66ba00d40db284c954cd052b",
+  "question": "¿Cuál es la función de `RouterModule` en Angular?",
+  "answers": [
+    "Gestionar la navegación entre vistas",
+    "Crear directivas",
+    "Manejar formularios",
+    "Inyectar dependencias"
+  ],
+  "correct": "Gestionar la navegación entre vistas",
+  "category": "angular"
+},
+{
+  "_id": "66ba00eb0db284c954cd052c",
+  "question": "¿Qué comando CLI de Angular se usa para generar un nuevo componente?",
+  "answers": [
+    "ng generate component",
+    "ng create component",
+    "ng build component",
+    "ng add component"
+  ],
+  "correct": "ng generate component",
+  "category": "angular"
+},
+{
+  "_id": "66ba00fc0db284c954cd052d",
+  "question": "¿Qué operador RxJS se utiliza para transformar un observable en Angular?",
+  "answers": [
+    "map",
+    "filter",
+    "merge",
+    "scan"
+  ],
+  "correct": "map",
+  "category": "angular"
+},
+{
+  "_id": "66ba010e0db284c954cd052e",
+  "question": "¿Cuál es el ciclo de vida de un componente Angular que se ejecuta después de que el componente ha sido inicializado?",
+  "answers": [
+    "ngOnInit",
+    "ngAfterViewInit",
+    "ngOnDestroy",
+    "ngAfterContentInit"
+  ],
+  "correct": "ngOnInit",
+  "category": "angular"
+},
+{
+  "_id": "66ba01210db284c954cd052f",
+  "question": "¿Cómo se puede realizar la vinculación bidireccional en Angular?",
+  "answers": [
+    "[(ngModel)]",
+    "[[ngModel]]",
+    "{{ngModel}}",
+    "[ngModel]"
+  ],
+  "correct": "[(ngModel)]",
+  "category": "angular"
+},
+{
+  "_id": "66ba01340db284c954cd0530",
+  "question": "¿Cuál de los siguientes es un servicio global que Angular proporciona para detectar cambios?",
+  "answers": [
+    "ChangeDetectorRef",
+    "NgZone",
+    "NgDetect",
+    "ZoneAware"
+  ],
+  "correct": "ChangeDetectorRef",
+  "category": "angular"
+},
+{
+  "_id": "66ba014a0db284c954cd0531",
+  "question": "¿Qué decorador se utiliza para inyectar una dependencia en un componente o servicio?",
+  "answers": [
+    "@Inject",
+    "@Input",
+    "@Output",
+    "@Provide"
+  ],
+  "correct": "@Inject",
+  "category": "angular"
+},
+{
+  "_id": "66ba015b0db284c954cd0532",
+  "question": "¿Cuál es la función principal del `NgModule` en Angular?",
+  "answers": [
+    "Agrupar componentes, directivas y servicios relacionados",
+    "Definir una nueva directiva",
+    "Configurar rutas de la aplicación",
+    "Crear un nuevo servicio"
+  ],
+  "correct": "Agrupar componentes, directivas y servicios relacionados",
+  "category": "angular"
+},
+{
+  "_id": "66ba016c0db284c954cd0533",
+  "question": "¿Qué hace la directiva `ngFor` en Angular?",
+  "answers": [
+    "Repite un elemento para cada elemento en una lista",
+    "Evalúa una expresión booleana",
+    "Establece el estilo condicionalmente",
+    "Inyecta un servicio en un componente"
+  ],
+  "correct": "Repite un elemento para cada elemento en una lista",
+  "category": "angular"
+},
+{
+  "_id": "66ba017f0db284c954cd0534",
+  "question": "¿Qué propiedad del objeto de configuración de las rutas permite proteger una ruta en Angular?",
+  "answers": [
+    "canActivate",
+    "canLoad",
+    "canActivateChild",
+    "canDeactivate"
+  ],
+  "correct": "canActivate",
+  "category": "angular"
+},
+{
+  "_id": "66ba018e0db284c954cd0535",
+  "question": "¿Qué característica de Angular permite inyectar dependencias en componentes y servicios?",
+  "answers": [
+    "Inyección de dependencias",
+    "Inyección directa",
+    "Inyección automática",
+    "Inyección de datos"
+  ],
+  "correct": "Inyección de dependencias",
+  "category": "angular"
+},
+{
+  "_id": "66ba01a10db284c954cd0536",
+  "question": "¿Qué comando CLI de Angular se utiliza para crear un nuevo servicio?",
+  "answers": [
+    "ng generate service",
+    "ng create service",
+    "ng add service",
+    "ng build service"
+  ],
+  "correct": "ng generate service",
+  "category": "angular"
+},
+{
+  "_id": "66ba042f3f26c1044ce07277",
+  "question": "¿Cuál es el comando para clonar un repositorio de GitHub?",
+  "answers": [
+    "git clone",
+    "git pull",
+    "git fetch",
+    "git download"
+  ],
+  "correct": "git clone",
+  "category": "github"
+},
+{
+  "_id": "66ba04463f26c1044ce07278",
+  "question": "¿Qué comando se utiliza para enviar cambios locales a un repositorio remoto en GitHub?",
+  "answers": [
+    "git push",
+    "git commit",
+    "git add",
+    "git merge"
+  ],
+  "correct": "git push",
+  "category": "github"
+},
+{
+  "_id": "66ba04613f26c1044ce07279",
+  "question": "¿Qué archivo se utiliza para ignorar archivos específicos en un repositorio de GitHub?",
+  "answers": [
+    ".gitignore",
+    ".gitconfig",
+    "ignore.txt",
+    "ignore.conf"
+  ],
+  "correct": ".gitignore",
+  "category": "github"
+},
+{
+  "_id": "66ba047c3f26c1044ce0727a",
+  "question": "¿Cómo se llama la solicitud para fusionar cambios desde una rama a la rama principal en GitHub?",
+  "answers": [
+    "Pull Request",
+    "Merge Request",
+    "Commit Request",
+    "Branch Request"
+  ],
+  "correct": "Pull Request",
+  "category": "github"
+},
+{
+  "_id": "66ba04943f26c1044ce0727b",
+  "question": "¿Qué comando se utiliza para descargar los últimos cambios desde un repositorio remoto sin fusionarlos?",
+  "answers": [
+    "git fetch",
+    "git pull",
+    "git merge",
+    "git update"
+  ],
+  "correct": "git fetch",
+  "category": "github"
+},
+{
+  "_id": "66ba04ac3f26c1044ce0727c",
+  "question": "¿Qué comando se usa para ver el historial de commits en un repositorio de GitHub?",
+  "answers": [
+    "git log",
+    "git status",
+    "git show",
+    "git history"
+  ],
+  "correct": "git log",
+  "category": "github"
+},
+{
+  "_id": "66ba04c23f26c1044ce0727d",
+  "question": "¿Cómo se denomina el proceso de copiar un repositorio a tu propia cuenta de GitHub?",
+  "answers": [
+    "Fork",
+    "Clone",
+    "Branch",
+    "Mirror"
+  ],
+  "correct": "Fork",
+  "category": "github"
+},
+{
+  "_id": "66ba04d43f26c1044ce0727e",
+  "question": "¿Qué archivo se suele utilizar para documentar un proyecto en GitHub?",
+  "answers": [
+    "README.md",
+    "DOCUMENTATION.md",
+    "INFO.md",
+    "PROJECT.md"
+  ],
+  "correct": "README.md",
+  "category": "github"
+},
+{
+  "_id": "66ba04eb3f26c1044ce0727f",
+  "question": "¿Qué comando crea un nuevo repositorio en la línea de comandos?",
+  "answers": [
+    "git init",
+    "git start",
+    "git create",
+    "git new"
+  ],
+  "correct": "git init",
+  "category": "github"
+},
+{
+  "_id": "66ba04fc3f26c1044ce07280",
+  "question": "¿Qué comando se utiliza para comprobar el estado actual del repositorio, como cambios pendientes?",
+  "answers": [
+    "git status",
+    "git check",
+    "git diff",
+    "git review"
+  ],
+  "correct": "git status",
+  "category": "github"
+},
+{
+  "_id": "66ba05103f26c1044ce07281",
+  "question": "¿Cómo se llama la característica de GitHub que permite automatizar tareas como pruebas y despliegues?",
+  "answers": [
+    "GitHub Actions",
+    "GitHub Tasks",
+    "GitHub CI",
+    "GitHub Jobs"
+  ],
+  "correct": "GitHub Actions",
+  "category": "github"
+},
+{
+  "_id": "66ba05253f26c1044ce07282",
+  "question": "¿Cuál es el propósito de un 'branch' en GitHub?",
+  "answers": [
+    "Crear una línea de desarrollo paralela",
+    "Eliminar un repositorio",
+    "Fusionar dos repositorios",
+    "Revertir cambios"
+  ],
+  "correct": "Crear una línea de desarrollo paralela",
+  "category": "github"
+},
+{
+  "_id": "66ba05373f26c1044ce07283",
+  "question": "¿Cómo puedes revertir los cambios de un commit anterior en GitHub?",
+  "answers": [
+    "git revert",
+    "git undo",
+    "git rollback",
+    "git reset"
+  ],
+  "correct": "git revert",
+  "category": "github"
+},
+{
+  "_id": "66ba054b3f26c1044ce07284",
+  "question": "¿Qué comando se utiliza para añadir cambios al área de preparación (staging area) en Git?",
+  "answers": [
+    "git add",
+    "git stage",
+    "git commit",
+    "git track"
+  ],
+  "correct": "git add",
+  "category": "github"
+},
+{
+  "_id": "66ba055f3f26c1044ce07285",
+  "question": "¿Qué característica de GitHub permite a los usuarios discutir problemas o mejoras en un repositorio?",
+  "answers": [
+    "Issues",
+    "Discussions",
+    "Tickets",
+    "Comments"
+  ],
+  "correct": "Issues",
+  "category": "github"
+},
+{
+  "_id": "66ba05713f26c1044ce07286",
+  "question": "¿Qué comando se utiliza para fusionar una rama en la rama actual en Git?",
+  "answers": [
+    "git merge",
+    "git integrate",
+    "git combine",
+    "git include"
+  ],
+  "correct": "git merge",
+  "category": "github"
+},
+{
+  "_id": "66ba05843f26c1044ce07287",
+  "question": "¿Cómo puedes contribuir a un repositorio de GitHub en el que no tienes permisos de escritura?",
+  "answers": [
+    "Creando un fork y luego un pull request",
+    "Creando un branch en el repositorio",
+    "Editando directamente en la rama principal",
+    "Solicitando acceso al propietario del repositorio"
+  ],
+  "correct": "Creando un fork y luego un pull request",
+  "category": "github"
+},
+{
+  "_id": "66ba05953f26c1044ce07288",
+  "question": "¿Qué comando se usa para configurar la información de usuario, como nombre y correo, en Git?",
+  "answers": [
+    "git config",
+    "git setup",
+    "git user",
+    "git settings"
+  ],
+  "correct": "git config",
+  "category": "github"
+},
+{
+  "_id": "66ba05a53f26c1044ce07289",
+  "question": "¿Qué herramienta de GitHub permite que múltiples personas trabajen en un proyecto al mismo tiempo?",
+  "answers": [
+    "Branches",
+    "Commits",
+    "Tags",
+    "Forks"
+  ],
+  "correct": "Branches",
+  "category": "github"
+},
+{
+  "_id": "66ba05ba3f26c1044ce0728a",
+  "question": "¿Qué es un 'commit' en GitHub?",
+  "answers": [
+    "Un cambio guardado en el repositorio",
+    "Un archivo en el repositorio",
+    "Un repositorio remoto",
+    "Una rama en el repositorio"
+  ],
+  "correct": "Un cambio guardado en el repositorio",
+  "category": "github"
+},
+{
+  "_id": "66ba06343f26c1044ce0728b",
+  "question": "¿Cuál es el propósito del elemento `<title>` en un documento HTML?",
+  "answers": [
+    "Definir el título que se muestra en la pestaña del navegador",
+    "Agregar un título dentro de la página",
+    "Agregar un pie de página",
+    "Definir la URL del documento"
+  ],
+  "correct": "Definir el título que se muestra en la pestaña del navegador",
+  "category": "html"
+},
+{
+  "_id": "66ba06613f26c1044ce0728c",
+  "question": "¿Qué etiqueta HTML se usa para crear un enlace?",
+  "answers": [
+    "<a>",
+    "<link>",
+    "<href>",
+    "<anchor>"
+  ],
+  "correct": "<a>",
+  "category": "html"
+},
+{
+  "_id": "66ba06743f26c1044ce0728d",
+  "question": "¿Cuál es el elemento HTML correcto para insertar una línea horizontal?",
+  "answers": [
+    "<hr>",
+    "<line>",
+    "<br>",
+    "<break>"
+  ],
+  "correct": "<hr>",
+  "category": "html"
+},
+{
+  "_id": "66ba06883f26c1044ce0728e",
+  "question": "¿Qué atributo HTML se utiliza para definir una imagen alternativa de texto si la imagen no se puede mostrar?",
+  "answers": [
+    "alt",
+    "title",
+    "src",
+    "placeholder"
+  ],
+  "correct": "alt",
+  "category": "html"
+},
+{
+  "_id": "66ba069a3f26c1044ce0728f",
+  "question": "¿Cuál es el propósito de la etiqueta `<meta>` en HTML?",
+  "answers": [
+    "Proporcionar metadatos sobre el documento HTML",
+    "Agregar scripts",
+    "Establecer estilos",
+    "Definir enlaces"
+  ],
+  "correct": "Proporcionar metadatos sobre el documento HTML",
+  "category": "html"
+},
+{
+  "_id": "66ba06ac3f26c1044ce07290",
+  "question": "¿Qué etiqueta HTML se usa para definir un encabezado de la tabla?",
+  "answers": [
+    "<th>",
+    "<tr>",
+    "<td>",
+    "<thead>"
+  ],
+  "correct": "<th>",
+  "category": "html"
+},
+{
+  "_id": "66ba06bf3f26c1044ce07291",
+  "question": "¿Cuál de las siguientes es una etiqueta HTML para listas ordenadas?",
+  "answers": [
+    "<ol>",
+    "<ul>",
+    "<li>",
+    "<dl>"
+  ],
+  "correct": "<ol>",
+  "category": "html"
+},
+{
+  "_id": "66ba06d13f26c1044ce07292",
+  "question": "¿Qué elemento HTML se utiliza para definir un párrafo?",
+  "answers": [
+    "<p>",
+    "<div>",
+    "<section>",
+    "<span>"
+  ],
+  "correct": "<p>",
+  "category": "html"
+},
+{
+  "_id": "66ba06e93f26c1044ce07293",
+  "question": "¿Qué etiqueta HTML se utiliza para definir un cuadro de texto de una sola línea?",
+  "answers": [
+    "<input type='text'>",
+    "<textarea>",
+    "<textfield>",
+    "<input type='textbox'>"
+  ],
+  "correct": "<input type='text'>",
+  "category": "html"
+},
+{
+  "_id": "66ba06fe3f26c1044ce07294",
+  "question": "¿Qué atributo HTML se usa para abrir un enlace en una nueva pestaña o ventana?",
+  "answers": [
+    "target='_blank'",
+    "target='_new'",
+    "href='_newtab'",
+    "window='_blank'"
+  ],
+  "correct": "target='_blank'",
+  "category": "html"
+},
+{
+  "_id": "66ba07123f26c1044ce07295",
+  "question": "¿Qué etiqueta HTML se utiliza para definir una lista de definiciones?",
+  "answers": [
+    "<dl>",
+    "<ul>",
+    "<ol>",
+    "<li>"
+  ],
+  "correct": "<dl>",
+  "category": "html"
+},
+{
+  "_id": "66ba07303f26c1044ce07296",
+  "question": "¿Cuál es la estructura básica correcta de un documento HTML?",
+  "answers": [
+    "<html><head><title></title></head><body></body></html>",
+    "<head><html><title></title></head><body></body></html>",
+    "<html><body><head></head></body></html>",
+    "<html><head></head><body><title></title></body></html>"
+  ],
+  "correct": "<html><head><title></title></head><body></body></html>",
+  "category": "html"
+},
+{
+  "_id": "66ba07413f26c1044ce07297",
+  "question": "¿Cuál es el propósito del atributo `action` en la etiqueta `<form>`?",
+  "answers": [
+    "Especificar la URL a la que se enviarán los datos del formulario",
+    "Establecer el método de envío de datos",
+    "Definir la apariencia del formulario",
+    "Establecer la validación del formulario"
+  ],
+  "correct": "Especificar la URL a la que se enviarán los datos del formulario",
+  "category": "html"
+},
+{
+  "_id": "66ba07523f26c1044ce07298",
+  "question": "¿Qué etiqueta HTML se utiliza para agregar un comentario en el código?",
+  "answers": [
+    "<!-- -->",
+    "<comment></comment>",
+    "//",
+    "/* */"
+  ],
+  "correct": "<!-- -->",
+  "category": "html"
+},
+{
+  "_id": "66ba07633f26c1044ce07299",
+  "question": "¿Qué elemento HTML se utiliza para reproducir video en una página web?",
+  "answers": [
+    "<video>",
+    "<media>",
+    "<movie>",
+    "<clip>"
+  ],
+  "correct": "<video>",
+  "category": "html"
+},
+{
+  "_id": "66ba077f3f26c1044ce0729a",
+  "question": "¿Qué atributo HTML se utiliza para combinar celdas en una tabla horizontalmente?",
+  "answers": [
+    "colspan",
+    "rowspan",
+    "cellspacing",
+    "colwidth"
+  ],
+  "correct": "colspan",
+  "category": "html"
+},
+{
+  "_id": "66ba07923f26c1044ce0729b",
+  "question": "¿Qué atributo se utiliza para hacer que una entrada de formulario sea obligatoria?",
+  "answers": [
+    "required",
+    "mandatory",
+    "validate",
+    "force"
+  ],
+  "correct": "required",
+  "category": "html"
+},
+{
+  "_id": "66ba07a53f26c1044ce0729c",
+  "question": "¿Qué etiqueta HTML se usa para definir un enlace ancla?",
+  "answers": [
+    "<a>",
+    "<link>",
+    "<anchor>",
+    "<href>"
+  ],
+  "correct": "<a>",
+  "category": "html"
+},
+{
+  "_id": "66ba07b73f26c1044ce0729d",
+  "question": "¿Cuál es la etiqueta HTML correcta para resaltar texto en negrita?",
+  "answers": [
+    "<strong>",
+    "<bold>",
+    "<em>",
+    "<b>"
+  ],
+  "correct": "<strong>",
+  "category": "html"
+},
+{
+  "_id": "66ba07c73f26c1044ce0729e",
+  "question": "¿Cuál es el propósito del atributo `charset` en la etiqueta `<meta>`?",
+  "answers": [
+    "Especificar el conjunto de caracteres utilizados en el documento",
+    "Definir la URL base del documento",
+    "Especificar la codificación de imágenes",
+    "Establecer el idioma del documento"
+  ],
+  "correct": "Especificar el conjunto de caracteres utilizados en el documento",
+  "category": "html"
+},
+{
+  "_id": "66ba697518314cd8cd9b5f42",
+  "question": "¿Qué método se usa para agregar un nuevo elemento al final de un array en JavaScript?",
+  "answers": [
+    "push()",
+    "pop()",
+    "shift()",
+    "unshift()"
+  ],
+  "correct": "push()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba699118314cd8cd9b5f43",
+  "question": "¿Cómo se llama la propiedad de JavaScript que devuelve el número de elementos en un array?",
+  "answers": [
+    "length",
+    "size",
+    "count",
+    "elements"
+  ],
+  "correct": "length",
+  "category": "javascript"
+},
+{
+  "_id": "66ba69b118314cd8cd9b5f44",
+  "question": "¿Cuál es la palabra clave utilizada para declarar una variable que no puede ser reasignada?",
+  "answers": [
+    "const",
+    "let",
+    "var",
+    "static"
+  ],
+  "correct": "const",
+  "category": "javascript"
+},
+{
+  "_id": "66ba69cc18314cd8cd9b5f45",
+  "question": "¿Qué tipo de dato devuelve el método `typeof` en JavaScript?",
+  "answers": [
+    "string",
+    "boolean",
+    "number",
+    "object"
+  ],
+  "correct": "string",
+  "category": "javascript"
+},
+{
+  "_id": "66ba69dc18314cd8cd9b5f46",
+  "question": "¿Qué operador se usa para comparar tanto el valor como el tipo de datos en JavaScript?",
+  "answers": [
+    "===",
+    "==",
+    "=",
+    "!=="
+  ],
+  "correct": "===",
+  "category": "javascript"
+},
+{
+  "_id": "66ba69f718314cd8cd9b5f47",
+  "question": "¿Qué método de array se utiliza para unir todos los elementos de un array en una cadena?",
+  "answers": [
+    "join()",
+    "concat()",
+    "map()",
+    "reduce()"
+  ],
+  "correct": "join()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a0c18314cd8cd9b5f48",
+  "question": "¿Cuál de las siguientes funciones se usa para convertir una cadena en un número entero?",
+  "answers": [
+    "parseInt()",
+    "Number()",
+    "parseFloat()",
+    "toString()"
+  ],
+  "correct": "parseInt()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a1f18314cd8cd9b5f49",
+  "question": "¿Cuál es el resultado de la expresión `typeof null` en JavaScript?",
+  "answers": [
+    "object",
+    "null",
+    "undefined",
+    "boolean"
+  ],
+  "correct": "object",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a3218314cd8cd9b5f4a",
+  "question": "¿Qué método se usa para verificar si una cadena comienza con un determinado valor?",
+  "answers": [
+    "startsWith()",
+    "beginsWith()",
+    "includes()",
+    "indexOf()"
+  ],
+  "correct": "startsWith()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a4518314cd8cd9b5f4b",
+  "question": "¿Qué palabra clave se utiliza para salir de un bucle en JavaScript?",
+  "answers": [
+    "break",
+    "exit",
+    "stop",
+    "return"
+  ],
+  "correct": "break",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a5b18314cd8cd9b5f4c",
+  "question": "¿Cuál de los siguientes métodos devuelve un array con los elementos que cumplen con una condición?",
+  "answers": [
+    "filter()",
+    "find()",
+    "map()",
+    "reduce()"
+  ],
+  "correct": "filter()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a7418314cd8cd9b5f4d",
+  "question": "¿Qué evento se activa cuando se envía un formulario en JavaScript?",
+  "answers": [
+    "submit",
+    "send",
+    "load",
+    "change"
+  ],
+  "correct": "submit",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a8a18314cd8cd9b5f4e",
+  "question": "¿Cuál es el valor predeterminado de la variable en una función cuando no se le pasa un argumento?",
+  "answers": [
+    "undefined",
+    "null",
+    "0",
+    "NaN"
+  ],
+  "correct": "undefined",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6a9d18314cd8cd9b5f4f",
+  "question": "¿Qué función devuelve una cadena convertida a mayúsculas?",
+  "answers": [
+    "toUpperCase()",
+    "toLowerCase()",
+    "capitalize()",
+    "upper()"
+  ],
+  "correct": "toUpperCase()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6ab218314cd8cd9b5f50",
+  "question": "¿Qué método se utiliza para agregar uno o más elementos al principio de un array?",
+  "answers": [
+    "unshift()",
+    "push()",
+    "pop()",
+    "shift()"
+  ],
+  "correct": "unshift()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6ac518314cd8cd9b5f51",
+  "question": "¿Cuál es la forma correcta de definir una función en JavaScript?",
+  "answers": [
+    "function myFunction() {}",
+    "def myFunction() {}",
+    "func myFunction() {}",
+    "function: myFunction() {}"
+  ],
+  "correct": "function myFunction() {}",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6ad818314cd8cd9b5f52",
+  "question": "¿Qué método se usa para devolver la representación en cadena de un número?",
+  "answers": [
+    "toString()",
+    "parseInt()",
+    "toNumber()",
+    "toText()"
+  ],
+  "correct": "toString()",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6ae718314cd8cd9b5f53",
+  "question": "¿Qué palabra clave se utiliza para declarar una variable con alcance de bloque en JavaScript?",
+  "answers": [
+    "let",
+    "var",
+    "const",
+    "block"
+  ],
+  "correct": "let",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6af718314cd8cd9b5f54",
+  "question": "¿Qué objeto global en JavaScript se utiliza para realizar operaciones matemáticas?",
+  "answers": [
+    "Math",
+    "Number",
+    "Arithmetic",
+    "Calculator"
+  ],
+  "correct": "Math",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6b0a18314cd8cd9b5f55",
+  "question": "¿Cómo se escribe un comentario de una sola línea en JavaScript?",
+  "answers": [
+    "// comentario",
+    "<!-- comentario -->",
+    "/* comentario */",
+    "# comentario"
+  ],
+  "correct": "// comentario",
+  "category": "javascript"
+},
+{
+  "_id": "66ba6b9d18314cd8cd9b5f56",
+  "question": "¿Cuál es la estructura básica para declarar una clase en Java?",
+  "answers": [
+    "class NombreClase {}",
+    "public NombreClase {}",
+    "def NombreClase {}",
+    "class: NombreClase {}"
+  ],
+  "correct": "class NombreClase {}",
+  "category": "java"
+},
+{
+  "_id": "66ba6bb918314cd8cd9b5f57",
+  "question": "¿Cuál es la palabra clave para heredar una clase en Java?",
+  "answers": [
+    "extends",
+    "inherits",
+    "implements",
+    "derives"
+  ],
+  "correct": "extends",
+  "category": "java"
+},
+{
+  "_id": "66ba6bd218314cd8cd9b5f58",
+  "question": "¿Cómo se define un método en Java?",
+  "answers": [
+    "returnType nombreMetodo() {}",
+    "function nombreMetodo() {}",
+    "def nombreMetodo() {}",
+    "method nombreMetodo() {}"
+  ],
+  "correct": "returnType nombreMetodo() {}",
+  "category": "java"
+},
+{
+  "_id": "66ba6be718314cd8cd9b5f59",
+  "question": "¿Qué palabra clave se usa para crear un objeto en Java?",
+  "answers": [
+    "new",
+    "create",
+    "instanceof",
+    "object"
+  ],
+  "correct": "new",
+  "category": "java"
+},
+{
+  "_id": "66ba6bfa18314cd8cd9b5f5a",
+  "question": "¿Qué es un constructor en Java?",
+  "answers": [
+    "Un método especial que se llama al crear un objeto",
+    "Una clase especial que construye otros objetos",
+    "Una función que se ejecuta al destruir un objeto",
+    "Un método que siempre devuelve un valor"
+  ],
+  "correct": "Un método especial que se llama al crear un objeto",
+  "category": "java"
+},
+{
+  "_id": "66ba6c0a18314cd8cd9b5f5b",
+  "question": "¿Cuál es el modificador de acceso más restrictivo en Java?",
+  "answers": [
+    "private",
+    "public",
+    "protected",
+    "default"
+  ],
+  "correct": "private",
+  "category": "java"
+},
+{
+  "_id": "66ba6bf718314cd8cd9b5f5c",
+  "question": "¿Qué significa la palabra clave `static` en Java?",
+  "answers": [
+    "Que un miembro pertenece a la clase en lugar de a una instancia",
+    "Que un miembro es mutable",
+    "Que un miembro solo es accesible en el mismo paquete",
+    "Que un miembro no puede ser heredado"
+  ],
+  "correct": "Que un miembro pertenece a la clase en lugar de a una instancia",
+  "category": "java"
+},
+{
+  "_id": "66ba6c0918314cd8cd9b5f5d",
+  "question": "¿Qué tipo de excepciones deben ser manejadas o declaradas en Java?",
+  "answers": [
+    "Excepciones comprobadas (checked)",
+    "Excepciones no comprobadas (unchecked)",
+    "Errores",
+    "Excepciones de tiempo de ejecución"
+  ],
+  "correct": "Excepciones comprobadas (checked)",
+  "category": "java"
+},
+{
+  "_id": "66ba6c1918314cd8cd9b5f5e",
+  "question": "¿Cuál es la interfaz que debe implementarse para usar expresiones lambda en Java?",
+  "answers": [
+    "FunctionalInterface",
+    "Runnable",
+    "Callable",
+    "Serializable"
+  ],
+  "correct": "FunctionalInterface",
+  "category": "java"
+},
+{
+  "_id": "66ba6c2c18314cd8cd9b5f5f",
+  "question": "¿Qué operador se utiliza para comparar dos objetos en Java?",
+  "answers": [
+    "equals()",
+    "==",
+    "compare()",
+    "compareTo()"
+  ],
+  "correct": "equals()",
+  "category": "java"
+},
+{
+  "_id": "66ba6c4218314cd8cd9b5f60",
+  "question": "¿Cuál es el valor por defecto de una variable de tipo `int` no inicializada?",
+  "answers": [
+    "0",
+    "null",
+    "undefined",
+    "-1"
+  ],
+  "correct": "0",
+  "category": "java"
+},
+{
+  "_id": "66ba6c5118314cd8cd9b5f61",
+  "question": "¿Cómo se declara un arreglo de enteros en Java?",
+  "answers": [
+    "int[] array;",
+    "array int[];",
+    "int array[];",
+    "int array{};"
+  ],
+  "correct": "int[] array;",
+  "category": "java"
+},
+{
+  "_id": "66ba6c6218314cd8cd9b5f62",
+  "question": "¿Qué palabra clave se utiliza para finalizar la ejecución de un bucle?",
+  "answers": [
+    "break",
+    "continue",
+    "exit",
+    "stop"
+  ],
+  "correct": "break",
+  "category": "java"
+},
+{
+  "_id": "66ba6c7a18314cd8cd9b5f63",
+  "question": "¿Qué modificador de acceso permite que los miembros de una clase sean accesibles solo dentro del mismo paquete?",
+  "answers": [
+    "default",
+    "protected",
+    "private",
+    "public"
+  ],
+  "correct": "default",
+  "category": "java"
+},
+{
+  "_id": "66ba6c8b18314cd8cd9b5f64",
+  "question": "¿Cómo se sobrecarga un método en Java?",
+  "answers": [
+    "Definiendo múltiples métodos con el mismo nombre pero diferentes parámetros",
+    "Reescribiendo el método en una subclase",
+    "Modificando la implementación de un método en la misma clase",
+    "Definiendo un método con un nombre diferente pero la misma funcionalidad"
+  ],
+  "correct": "Definiendo múltiples métodos con el mismo nombre pero diferentes parámetros",
+  "category": "java"
+},
+{
+  "_id": "66ba6c9b18314cd8cd9b5f65",
+  "question": "¿Qué es un paquete (package) en Java?",
+  "answers": [
+    "Un mecanismo para organizar clases relacionadas",
+    "Un tipo especial de clase",
+    "Una biblioteca externa",
+    "Una colección de archivos jar"
+  ],
+  "correct": "Un mecanismo para organizar clases relacionadas",
+  "category": "java"
+},
+{
+  "_id": "66ba6caa18314cd8cd9b5f66",
+  "question": "¿Qué método se llama automáticamente al imprimir un objeto en Java?",
+  "answers": [
+    "toString()",
+    "print()",
+    "println()",
+    "display()"
+  ],
+  "correct": "toString()",
+  "category": "java"
+},
+{
+  "_id": "66ba6cbd18314cd8cd9b5f67",
+  "question": "¿Qué palabra clave se utiliza para prevenir que un método sea sobrescrito?",
+  "answers": [
+    "final",
+    "static",
+    "private",
+    "sealed"
+  ],
+  "correct": "final",
+  "category": "java"
+},
+{
+  "_id": "66ba6ccc18314cd8cd9b5f68",
+  "question": "¿Cuál es el propósito del recolector de basura (Garbage Collector) en Java?",
+  "answers": [
+    "Liberar memoria eliminando objetos que ya no se usan",
+    "Optimizar el rendimiento del procesador",
+    "Ejecutar tareas en segundo plano",
+    "Reparar errores de memoria"
+  ],
+  "correct": "Liberar memoria eliminando objetos que ya no se usan",
+  "category": "java"
+},
+{
+  "_id": "66ba6cdf18314cd8cd9b5f69",
+  "question": "¿Qué interfaz se debe implementar para crear un hilo en Java?",
+  "answers": [
+    "Runnable",
+    "Callable",
+    "Thread",
+    "Executor"
+  ],
+  "correct": "Runnable",
+  "category": "java"
+},
+{
+  "_id": "66bb9600764cb0fd0328c63f",
+  "question": "¿Cuál es la forma correcta de seleccionar un elemento por su ID en jQuery?",
+  "answers": [
+    "$('#miElemento')",
+    "$('#miElemento')",
+    "$('miElemento')",
+    "jQuery('#miElemento')"
+  ],
+  "correct": "$('#miElemento')",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9621764cb0fd0328c640",
+  "question": "¿Qué método en jQuery se usa para ocultar un elemento?",
+  "answers": [
+    "hide()",
+    "visible(false)",
+    "display(none)",
+    "fadeOut()"
+  ],
+  "correct": "hide()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9633764cb0fd0328c641",
+  "question": "¿Cómo se enlaza un evento de clic a un elemento en jQuery?",
+  "answers": [
+    "$('#miElemento').click(function() {})",
+    "$('#miElemento').onClick(function() {})",
+    "$('miElemento').bind('click', function() {})",
+    "jQuery('#miElemento').addEventListener('click', function() {})"
+  ],
+  "correct": "$('#miElemento').click(function() {})",
+  "category": "jquery"
+},
+{
+  "_id": "66bb964a764cb0fd0328c642",
+  "question": "¿Qué método se utiliza para realizar una solicitud AJAX en jQuery?",
+  "answers": [
+    "$.ajax()",
+    "$.getJSON()",
+    "$.request()",
+    "$.call()"
+  ],
+  "correct": "$.ajax()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb965f764cb0fd0328c643",
+  "question": "¿Cómo se agrega una clase CSS a un elemento en jQuery?",
+  "answers": [
+    "$('#miElemento').addClass('miClase')",
+    "$('#miElemento').css('miClase')",
+    "$('#miElemento').setClass('miClase')",
+    "$('#miElemento').class('miClase')"
+  ],
+  "correct": "$('#miElemento').addClass('miClase')",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9674764cb0fd0328c644",
+  "question": "¿Cuál es la función para cambiar el contenido HTML de un elemento?",
+  "answers": [
+    "html()",
+    "text()",
+    "content()",
+    "innerHTML()"
+  ],
+  "correct": "html()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb968d764cb0fd0328c645",
+  "question": "¿Qué método jQuery se usa para detener una animación en ejecución?",
+  "answers": [
+    "stop()",
+    "pause()",
+    "finish()",
+    "halt()"
+  ],
+  "correct": "stop()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb969f764cb0fd0328c646",
+  "question": "¿Cómo se seleccionan todos los elementos de un tipo específico, como `<p>`, en jQuery?",
+  "answers": [
+    "$('p')",
+    "$('all p')",
+    "$('<p>')",
+    "jQuery('p')"
+  ],
+  "correct": "$('p')",
+  "category": "jquery"
+},
+{
+  "_id": "66bb96b1764cb0fd0328c647",
+  "question": "¿Qué método jQuery se utiliza para alternar la visibilidad de un elemento?",
+  "answers": [
+    "toggle()",
+    "switch()",
+    "changeVisibility()",
+    "flip()"
+  ],
+  "correct": "toggle()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb96c2764cb0fd0328c648",
+  "question": "¿Cómo se obtiene el valor de un campo de formulario en jQuery?",
+  "answers": [
+    "$('#campo').val()",
+    "$('#campo').value()",
+    "$('#campo').get()",
+    "$('#campo').text()"
+  ],
+  "correct": "$('#campo').val()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb96d5764cb0fd0328c649",
+  "question": "¿Qué método jQuery se usa para añadir un nuevo elemento después de otro?",
+  "answers": [
+    "after()",
+    "insertAfter()",
+    "append()",
+    "next()"
+  ],
+  "correct": "after()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb96eb764cb0fd0328c64a",
+  "question": "¿Cuál es el método jQuery correcto para recorrer todos los elementos seleccionados?",
+  "answers": [
+    "each()",
+    "forEach()",
+    "loop()",
+    "iterate()"
+  ],
+  "correct": "each()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb96fb764cb0fd0328c64b",
+  "question": "¿Cómo se inicia una animación de desvanecimiento en jQuery?",
+  "answers": [
+    "fadeIn()",
+    "show()",
+    "fadeOut()",
+    "animate()"
+  ],
+  "correct": "fadeIn()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb970b764cb0fd0328c64c",
+  "question": "¿Qué método jQuery se usa para obtener o establecer atributos de un elemento?",
+  "answers": [
+    "attr()",
+    "property()",
+    "setAttr()",
+    "attribute()"
+  ],
+  "correct": "attr()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9724764cb0fd0328c64d",
+  "question": "¿Qué evento se activa cuando el DOM ha terminado de cargarse en jQuery?",
+  "answers": [
+    "$(document).ready()",
+    "$(window).load()",
+    "$(document).load()",
+    "$(document).init()"
+  ],
+  "correct": "$(document).ready()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9736764cb0fd0328c64e",
+  "question": "¿Cuál de los siguientes métodos jQuery se utiliza para alternar una clase en un elemento?",
+  "answers": [
+    "toggleClass()",
+    "switchClass()",
+    "flipClass()",
+    "alterClass()"
+  ],
+  "correct": "toggleClass()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9748764cb0fd0328c64f",
+  "question": "¿Qué selector jQuery se usa para seleccionar un elemento por su clase?",
+  "answers": [
+    "$('.miClase')",
+    "$('miClase')",
+    "$('#miClase')",
+    "$('<miClase>')"
+  ],
+  "correct": "$('.miClase')",
+  "category": "jquery"
+},
+{
+  "_id": "66bb975b764cb0fd0328c650",
+  "question": "¿Qué método jQuery se utiliza para cambiar el valor de un elemento de formulario?",
+  "answers": [
+    "val()",
+    "text()",
+    "html()",
+    "content()"
+  ],
+  "correct": "val()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb976f764cb0fd0328c651",
+  "question": "¿Cómo se detiene la propagación de un evento en jQuery?",
+  "answers": [
+    "event.stopPropagation()",
+    "event.halt()",
+    "event.prevent()",
+    "event.stop()"
+  ],
+  "correct": "event.stopPropagation()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb9783764cb0fd0328c652",
+  "question": "¿Cuál es el método jQuery utilizado para cambiar el texto de un elemento?",
+  "answers": [
+    "text()",
+    "html()",
+    "change()",
+    "val()"
+  ],
+  "correct": "text()",
+  "category": "jquery"
+},
+{
+  "_id": "66bb97f84fa40145db38f6ac",
+  "question": "¿Qué comando se usa para seleccionar una base de datos en MySQL?",
+  "answers": [
+    "USE nombre_base_datos;",
+    "SELECT nombre_base_datos;",
+    "CHOOSE nombre_base_datos;",
+    "DATABASE nombre_base_datos;"
+  ],
+  "correct": "USE nombre_base_datos;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb980e4fa40145db38f6ad",
+  "question": "¿Cómo se obtiene una lista de todas las bases de datos en MySQL?",
+  "answers": [
+    "SHOW DATABASES;",
+    "LIST DATABASES;",
+    "GET DATABASES;",
+    "DATABASES;"
+  ],
+  "correct": "SHOW DATABASES;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98214fa40145db38f6ae",
+  "question": "¿Cuál es el comando para eliminar una tabla en MySQL?",
+  "answers": [
+    "DROP TABLE nombre_tabla;",
+    "DELETE TABLE nombre_tabla;",
+    "REMOVE TABLE nombre_tabla;",
+    "ERASE TABLE nombre_tabla;"
+  ],
+  "correct": "DROP TABLE nombre_tabla;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98324fa40145db38f6af",
+  "question": "¿Qué sentencia se usa para modificar una tabla existente en MySQL?",
+  "answers": [
+    "ALTER TABLE nombre_tabla;",
+    "MODIFY TABLE nombre_tabla;",
+    "CHANGE TABLE nombre_tabla;",
+    "UPDATE TABLE nombre_tabla;"
+  ],
+  "correct": "ALTER TABLE nombre_tabla;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98444fa40145db38f6b0",
+  "question": "¿Cómo se inserta un nuevo registro en una tabla en MySQL?",
+  "answers": [
+    "INSERT INTO nombre_tabla (columnas) VALUES (valores);",
+    "ADD INTO nombre_tabla (columnas) VALUES (valores);",
+    "SET nombre_tabla (columnas) = (valores);",
+    "PUT INTO nombre_tabla (columnas) VALUES (valores);"
+  ],
+  "correct": "INSERT INTO nombre_tabla (columnas) VALUES (valores);",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98554fa40145db38f6b1",
+  "question": "¿Qué función se usa para contar el número de filas en una tabla?",
+  "answers": [
+    "COUNT()",
+    "SUM()",
+    "TOTAL()",
+    "ROWCOUNT()"
+  ],
+  "correct": "COUNT()",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98654fa40145db38f6b2",
+  "question": "¿Qué palabra clave se usa para ordenar los resultados de una consulta?",
+  "answers": [
+    "ORDER BY",
+    "SORT BY",
+    "GROUP BY",
+    "ARRANGE BY"
+  ],
+  "correct": "ORDER BY",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98784fa40145db38f6b3",
+  "question": "¿Cuál es el comando para crear una nueva tabla en MySQL?",
+  "answers": [
+    "CREATE TABLE nombre_tabla (columnas);",
+    "NEW TABLE nombre_tabla (columnas);",
+    "ADD TABLE nombre_tabla (columnas);",
+    "MAKE TABLE nombre_tabla (columnas);"
+  ],
+  "correct": "CREATE TABLE nombre_tabla (columnas);",
+  "category": "mysql"
+},
+{
+  "_id": "66bb988c4fa40145db38f6b4",
+  "question": "¿Qué sentencia se usa para eliminar una base de datos en MySQL?",
+  "answers": [
+    "DROP DATABASE nombre_base_datos;",
+    "DELETE DATABASE nombre_base_datos;",
+    "REMOVE DATABASE nombre_base_datos;",
+    "ERASE DATABASE nombre_base_datos;"
+  ],
+  "correct": "DROP DATABASE nombre_base_datos;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb989e4fa40145db38f6b5",
+  "question": "¿Cómo se seleccionan todos los registros de una tabla llamada 'clientes'?",
+  "answers": [
+    "SELECT * FROM clientes;",
+    "GET * FROM clientes;",
+    "RETRIEVE * FROM clientes;",
+    "FETCH * FROM clientes;"
+  ],
+  "correct": "SELECT * FROM clientes;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98b24fa40145db38f6b6",
+  "question": "¿Qué palabra clave se utiliza para actualizar registros existentes en una tabla?",
+  "answers": [
+    "UPDATE",
+    "MODIFY",
+    "CHANGE",
+    "SET"
+  ],
+  "correct": "UPDATE",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98c14fa40145db38f6b7",
+  "question": "¿Cómo se eliminan todos los registros de una tabla en MySQL?",
+  "answers": [
+    "DELETE FROM nombre_tabla;",
+    "REMOVE * FROM nombre_tabla;",
+    "CLEAR TABLE nombre_tabla;",
+    "TRUNCATE nombre_tabla;"
+  ],
+  "correct": "DELETE FROM nombre_tabla;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98d04fa40145db38f6b8",
+  "question": "¿Qué tipo de clave garantiza que cada valor en una columna sea único en MySQL?",
+  "answers": [
+    "PRIMARY KEY",
+    "FOREIGN KEY",
+    "INDEX",
+    "UNIQUE KEY"
+  ],
+  "correct": "PRIMARY KEY",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98e14fa40145db38f6b9",
+  "question": "¿Cuál es el propósito de la cláusula WHERE en una consulta SQL?",
+  "answers": [
+    "Filtrar los resultados según una condición",
+    "Ordenar los resultados",
+    "Unir dos tablas",
+    "Contar el número de registros"
+  ],
+  "correct": "Filtrar los resultados según una condición",
+  "category": "mysql"
+},
+{
+  "_id": "66bb98f24fa40145db38f6ba",
+  "question": "¿Qué operador se usa en una consulta SQL para seleccionar registros con un patrón específico?",
+  "answers": [
+    "LIKE",
+    "SIMILAR TO",
+    "MATCHES",
+    "PATTERN"
+  ],
+  "correct": "LIKE",
+  "category": "mysql"
+},
+{
+  "_id": "66bb99074fa40145db38f6bb",
+  "question": "¿Qué palabra clave se usa para evitar valores duplicados en los resultados?",
+  "answers": [
+    "DISTINCT",
+    "UNIQUE",
+    "DIFFERENT",
+    "NON-REPEATING"
+  ],
+  "correct": "DISTINCT",
+  "category": "mysql"
+},
+{
+  "_id": "66bb991b4fa40145db38f6bc",
+  "question": "¿Cómo se establece una relación entre dos tablas en MySQL?",
+  "answers": [
+    "FOREIGN KEY",
+    "PRIMARY KEY",
+    "UNIQUE KEY",
+    "JOIN KEY"
+  ],
+  "correct": "FOREIGN KEY",
+  "category": "mysql"
+},
+{
+  "_id": "66bb992c4fa40145db38f6bd",
+  "question": "¿Qué tipo de JOIN devuelve todas las filas cuando hay una coincidencia en ambas tablas?",
+  "answers": [
+    "INNER JOIN",
+    "LEFT JOIN",
+    "RIGHT JOIN",
+    "FULL JOIN"
+  ],
+  "correct": "INNER JOIN",
+  "category": "mysql"
+},
+{
+  "_id": "66bb993e4fa40145db38f6be",
+  "question": "¿Qué función SQL se usa para calcular el valor promedio de una columna?",
+  "answers": [
+    "AVG()",
+    "SUM()",
+    "MEAN()",
+    "AVERAGE()"
+  ],
+  "correct": "AVG()",
+  "category": "mysql"
+},
+{
+  "_id": "66bb99524fa40145db38f6bf",
+  "question": "¿Cómo se agrega una columna nueva a una tabla existente en MySQL?",
+  "answers": [
+    "ALTER TABLE nombre_tabla ADD nombre_columna DATATYPE;",
+    "ADD COLUMN nombre_tabla nombre_columna DATATYPE;",
+    "INSERT COLUMN nombre_tabla nombre_columna DATATYPE;",
+    "MODIFY TABLE nombre_tabla ADD nombre_columna DATATYPE;"
+  ],
+  "correct": "ALTER TABLE nombre_tabla ADD nombre_columna DATATYPE;",
+  "category": "mysql"
+},
+{
+  "_id": "66bb99ad92d62e514e5ed4d7",
+  "question": "¿Qué es Node.js?",
+  "answers": [
+    "Un entorno de ejecución para JavaScript fuera del navegador",
+    "Un nuevo lenguaje de programación",
+    "Una biblioteca de JavaScript para crear interfaces de usuario",
+    "Un servidor de base de datos"
+  ],
+  "correct": "Un entorno de ejecución para JavaScript fuera del navegador",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb99ca92d62e514e5ed4d8",
+  "question": "¿Cuál de los siguientes módulos es parte del núcleo de Node.js?",
+  "answers": [
+    "fs",
+    "express",
+    "mongoose",
+    "axios"
+  ],
+  "correct": "fs",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb99e192d62e514e5ed4d9",
+  "question": "¿Qué comando se usa para iniciar un proyecto Node.js?",
+  "answers": [
+    "npm init",
+    "npm start",
+    "node start",
+    "npm new"
+  ],
+  "correct": "npm init",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb99f592d62e514e5ed4da",
+  "question": "¿Qué hace el módulo 'http' en Node.js?",
+  "answers": [
+    "Permite crear servidores HTTP",
+    "Maneja operaciones de lectura y escritura de archivos",
+    "Gestiona conexiones a bases de datos",
+    "Proporciona herramientas para encriptación"
+  ],
+  "correct": "Permite crear servidores HTTP",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a0792d62e514e5ed4db",
+  "question": "¿Qué método de fs se utiliza para leer el contenido de un archivo de forma asíncrona?",
+  "answers": [
+    "fs.readFile()",
+    "fs.getFile()",
+    "fs.loadFile()",
+    "fs.readFileSync()"
+  ],
+  "correct": "fs.readFile()",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a1d92d62e514e5ed4dc",
+  "question": "¿Qué palabra clave se utiliza para importar un módulo en Node.js?",
+  "answers": [
+    "require",
+    "import",
+    "include",
+    "fetch"
+  ],
+  "correct": "require",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a3092d62e514e5ed4dd",
+  "question": "¿Cuál es el gestor de paquetes predeterminado para Node.js?",
+  "answers": [
+    "npm",
+    "yarn",
+    "bower",
+    "composer"
+  ],
+  "correct": "npm",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a4492d62e514e5ed4de",
+  "question": "¿Qué archivo se utiliza para definir las dependencias de un proyecto Node.js?",
+  "answers": [
+    "package.json",
+    "node_modules.json",
+    "dependencies.json",
+    "config.json"
+  ],
+  "correct": "package.json",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a5592d62e514e5ed4df",
+  "question": "¿Cuál es la principal diferencia entre 'fs.readFile' y 'fs.readFileSync'?",
+  "answers": [
+    "'fs.readFile' es asíncrono y 'fs.readFileSync' es síncrono",
+    "'fs.readFile' es síncrono y 'fs.readFileSync' es asíncrono",
+    "'fs.readFileSync' es más rápido",
+    "'fs.readFileSync' se usa solo en navegadores"
+  ],
+  "correct": "'fs.readFile' es asíncrono y 'fs.readFileSync' es síncrono",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a6a92d62e514e5ed4e0",
+  "question": "¿Qué función de Node.js se usa para crear un servidor?",
+  "answers": [
+    "http.createServer()",
+    "server.create()",
+    "net.createServer()",
+    "node.createServer()"
+  ],
+  "correct": "http.createServer()",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a7e92d62e514e5ed4e1",
+  "question": "¿Qué se usa para manejar rutas en una aplicación Node.js?",
+  "answers": [
+    "Express.js",
+    "Mongoose",
+    "React Router",
+    "Nodemon"
+  ],
+  "correct": "Express.js",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9a9092d62e514e5ed4e2",
+  "question": "¿Cómo se instala un paquete usando npm?",
+  "answers": [
+    "npm install paquete",
+    "npm download paquete",
+    "npm get paquete",
+    "npm update paquete"
+  ],
+  "correct": "npm install paquete",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9aa592d62e514e5ed4e3",
+  "question": "¿Qué es un middleware en Express.js?",
+  "answers": [
+    "Una función que tiene acceso al objeto de solicitud, respuesta y a la siguiente función de middleware",
+    "Un módulo para manejar operaciones de archivo",
+    "Una biblioteca para realizar consultas SQL",
+    "Una herramienta para manejar sockets"
+  ],
+  "correct": "Una función que tiene acceso al objeto de solicitud, respuesta y a la siguiente función de middleware",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9aba92d62e514e5ed4e4",
+  "question": "¿Qué comando se usa para ejecutar un archivo JavaScript con Node.js?",
+  "answers": [
+    "node nombre_archivo.js",
+    "run nombre_archivo.js",
+    "npm start nombre_archivo.js",
+    "execute nombre_archivo.js"
+  ],
+  "correct": "node nombre_archivo.js",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9ace92d62e514e5ed4e5",
+  "question": "¿Cómo se exporta una función desde un módulo en Node.js?",
+  "answers": [
+    "module.exports = miFuncion",
+    "exports miFuncion",
+    "export miFuncion",
+    "require miFuncion"
+  ],
+  "correct": "module.exports = miFuncion",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9ae192d62e514e5ed4e6",
+  "question": "¿Qué comando se usa para instalar todas las dependencias listadas en package.json?",
+  "answers": [
+    "npm install",
+    "npm start",
+    "npm build",
+    "npm init"
+  ],
+  "correct": "npm install",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9af492d62e514e5ed4e7",
+  "question": "¿Qué módulo se utiliza para trabajar con rutas de archivos y directorios en Node.js?",
+  "answers": [
+    "path",
+    "url",
+    "route",
+    "fs"
+  ],
+  "correct": "path",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9b0592d62e514e5ed4e8",
+  "question": "¿Cómo se verifica la versión de Node.js instalada en tu sistema?",
+  "answers": [
+    "node -v",
+    "node --version",
+    "npm version",
+    "node -version"
+  ],
+  "correct": "node -v",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9b1792d62e514e5ed4e9",
+  "question": "¿Qué es 'npm run' en Node.js?",
+  "answers": [
+    "Un comando para ejecutar scripts definidos en package.json",
+    "Un comando para iniciar un servidor Node.js",
+    "Un comando para actualizar dependencias",
+    "Un comando para instalar un paquete globalmente"
+  ],
+  "correct": "Un comando para ejecutar scripts definidos en package.json",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9b2992d62e514e5ed4ea",
+  "question": "¿Qué herramienta se utiliza comúnmente para reiniciar automáticamente un servidor Node.js durante el desarrollo?",
+  "answers": [
+    "Nodemon",
+    "Webpack",
+    "Gulp",
+    "Babel"
+  ],
+  "correct": "Nodemon",
+  "category": "nodejs"
+},
+{
+  "_id": "66bb9b8cd4d22b408c680357",
+  "question": "¿Qué significa PHP?",
+  "answers": [
+    "PHP: Hypertext Preprocessor",
+    "Personal Home Page",
+    "Programming Hypertext Processor",
+    "Predefined Hypertext Processor"
+  ],
+  "correct": "PHP: Hypertext Preprocessor",
+  "category": "php"
+},
+{
+  "_id": "66bb9ba1d4d22b408c680358",
+  "question": "¿Cuál es la extensión predeterminada de un archivo PHP?",
+  "answers": [
+    ".php",
+    ".html",
+    ".ph",
+    ".pp"
+  ],
+  "correct": ".php",
+  "category": "php"
+},
+{
+  "_id": "66bb9bb4d4d22b408c680359",
+  "question": "¿Cómo se imprime texto en PHP?",
+  "answers": [
+    "echo 'texto';",
+    "print('texto');",
+    "console.log('texto');",
+    "write('texto');"
+  ],
+  "correct": "echo 'texto';",
+  "category": "php"
+},
+{
+  "_id": "66bb9bcad4d22b408c68035a",
+  "question": "¿Qué función se usa para incluir archivos en PHP?",
+  "answers": [
+    "include()",
+    "insert()",
+    "require_once()",
+    "attach()"
+  ],
+  "correct": "include()",
+  "category": "php"
+},
+{
+  "_id": "66bb9bdbd4d22b408c68035b",
+  "question": "¿Cómo se define una variable en PHP?",
+  "answers": [
+    "$nombre_variable = valor;",
+    "var nombre_variable = valor;",
+    "let nombre_variable = valor;",
+    "define nombre_variable valor;"
+  ],
+  "correct": "$nombre_variable = valor;",
+  "category": "php"
+},
+{
+  "_id": "66bb9bebd4d22b408c68035c",
+  "question": "¿Qué palabra clave se usa para declarar una función en PHP?",
+  "answers": [
+    "function",
+    "def",
+    "func",
+    "lambda"
+  ],
+  "correct": "function",
+  "category": "php"
+},
+{
+  "_id": "66bb9c02d4d22b408c68035d",
+  "question": "¿Qué símbolo se usa para concatenar cadenas en PHP?",
+  "answers": [
+    ".",
+    "+",
+    "&",
+    "concat"
+  ],
+  "correct": ".",
+  "category": "php"
+},
+{
+  "_id": "66bb9c15d4d22b408c68035e",
+  "question": "¿Cuál es la función que se usa para contar elementos en un array en PHP?",
+  "answers": [
+    "count()",
+    "size()",
+    "length()",
+    "array_count()"
+  ],
+  "correct": "count()",
+  "category": "php"
+},
+{
+  "_id": "66bb9c28d4d22b408c68035f",
+  "question": "¿Cuál es el nombre de la variable superglobal que contiene los datos de formulario enviados por POST?",
+  "answers": [
+    "$_POST",
+    "$_GET",
+    "$_REQUEST",
+    "$_FORM"
+  ],
+  "correct": "$_POST",
+  "category": "php"
+},
+{
+  "_id": "66bb9c39d4d22b408c680360",
+  "question": "¿Cómo se inicia una sesión en PHP?",
+  "answers": [
+    "session_start();",
+    "session_begin();",
+    "session_init();",
+    "session_open();"
+  ],
+  "correct": "session_start();",
+  "category": "php"
+},
+{
+  "_id": "66bb9c4fd4d22b408c680361",
+  "question": "¿Qué función se utiliza para redirigir a otra página en PHP?",
+  "answers": [
+    "header('Location: nueva_pagina.php');",
+    "redirect('nueva_pagina.php');",
+    "location('nueva_pagina.php');",
+    "goto('nueva_pagina.php');"
+  ],
+  "correct": "header('Location: nueva_pagina.php');",
+  "category": "php"
+},
+{
+  "_id": "66bb9c68d4d22b408c680362",
+  "question": "¿Qué versión de PHP introdujo la gestión de excepciones mediante try-catch?",
+  "answers": [
+    "PHP 5",
+    "PHP 4",
+    "PHP 7",
+    "PHP 5.3"
+  ],
+  "correct": "PHP 5",
+  "category": "php"
+},
+{
+  "_id": "66bb9c79d4d22b408c680363",
+  "question": "¿Qué función se usa para verificar si una variable está definida en PHP?",
+  "answers": [
+    "isset()",
+    "defined()",
+    "exists()",
+    "is_null()"
+  ],
+  "correct": "isset()",
+  "category": "php"
+},
+{
+  "_id": "66bb9c8ad4d22b408c680364",
+  "question": "¿Cuál es la variable superglobal que almacena las variables de sesión en PHP?",
+  "answers": [
+    "$_SESSION",
+    "$_COOKIE",
+    "$_SERVER",
+    "$_GLOBAL"
+  ],
+  "correct": "$_SESSION",
+  "category": "php"
+},
+{
+  "_id": "66bb9c9fd4d22b408c680365",
+  "question": "¿Cuál es el alcance de una variable definida dentro de una función en PHP?",
+  "answers": [
+    "Local",
+    "Global",
+    "Estático",
+    "Automático"
+  ],
+  "correct": "Local",
+  "category": "php"
+},
+{
+  "_id": "66bb9caed4d22b408c680366",
+  "question": "¿Cómo se llama a un archivo de PHP que termina la ejecución de un script?",
+  "answers": [
+    "exit();",
+    "stop();",
+    "terminate();",
+    "end();"
+  ],
+  "correct": "exit();",
+  "category": "php"
+},
+{
+  "_id": "66bb9cc2d4d22b408c680367",
+  "question": "¿Cuál es la forma correcta de escribir un comentario en PHP?",
+  "answers": [
+    "// Esto es un comentario",
+    "<!-- Esto es un comentario -->",
+    "# Esto es un comentario",
+    "// Esto es un comentario /* comentario */"
+  ],
+  "correct": "// Esto es un comentario",
+  "category": "php"
+},
+{
+  "_id": "66bb9cd6d4d22b408c680368",
+  "question": "¿Qué significa 'echo' en PHP?",
+  "answers": [
+    "Es una construcción del lenguaje que imprime una cadena de texto",
+    "Es una función que retorna el contenido de una variable",
+    "Es un método para imprimir texto en el navegador",
+    "Es una palabra reservada para declarar variables"
+  ],
+  "correct": "Es una construcción del lenguaje que imprime una cadena de texto",
+  "category": "php"
+},
+{
+  "_id": "66bb9ce6d4d22b408c680369",
+  "question": "¿Qué función se usa para obtener la longitud de una cadena en PHP?",
+  "answers": [
+    "strlen()",
+    "strlength()",
+    "length()",
+    "sizeof()"
+  ],
+  "correct": "strlen()",
+  "category": "php"
+},
+{
+  "_id": "66bb9cf8d4d22b408c68036a",
+  "question": "¿Qué operador se utiliza para verificar si dos valores son idénticos en PHP?",
+  "answers": [
+    "===",
+    "==",
+    "=",
+    "!=="
+  ],
+  "correct": "===",
+  "category": "php"
+},
+{
+  "_id": "66bb9d28e9b4d30d85001516",
+  "question": "¿Qué es React?",
+  "answers": [
+    "Una biblioteca de JavaScript para construir interfaces de usuario",
+    "Un framework completo para el desarrollo backend",
+    "Un lenguaje de programación",
+    "Una base de datos"
+  ],
+  "correct": "Una biblioteca de JavaScript para construir interfaces de usuario",
+  "category": "react"
+},
+{
+  "_id": "66bb9d3ee9b4d30d85001517",
+  "question": "¿Cómo se llama la estructura que utiliza React para gestionar la interfaz de usuario?",
+  "answers": [
+    "El Virtual DOM",
+    "El Real DOM",
+    "El Shadow DOM",
+    "El Proxy DOM"
+  ],
+  "correct": "El Virtual DOM",
+  "category": "react"
+},
+{
+  "_id": "66bb9d51e9b4d30d85001518",
+  "question": "¿Qué función se utiliza para crear un componente en React?",
+  "answers": [
+    "function MiComponente() {}",
+    "class MiComponente extends React.Component {}",
+    "createComponent()",
+    "React.Component()"
+  ],
+  "correct": "class MiComponente extends React.Component {}",
+  "category": "react"
+},
+{
+  "_id": "66bb9d77e9b4d30d85001519",
+  "question": "¿Qué se usa para pasar datos de un componente padre a un componente hijo en React?",
+  "answers": [
+    "Props",
+    "State",
+    "Context",
+    "Hooks"
+  ],
+  "correct": "Props",
+  "category": "react"
+},
+{
+  "_id": "66bb9d88e9b4d30d8500151a",
+  "question": "¿Cómo se llama el hook que se utiliza para manejar el estado en un componente funcional?",
+  "answers": [
+    "useState",
+    "useEffect",
+    "useContext",
+    "useReducer"
+  ],
+  "correct": "useState",
+  "category": "react"
+},
+{
+  "_id": "66bb9d9ae9b4d30d8500151b",
+  "question": "¿Qué método se utiliza para renderizar un componente en el DOM?",
+  "answers": [
+    "ReactDOM.render()",
+    "React.render()",
+    "Component.render()",
+    "document.render()"
+  ],
+  "correct": "ReactDOM.render()",
+  "category": "react"
+},
+{
+  "_id": "66bb9db0e9b4d30d8500151c",
+  "question": "¿Qué es un 'prop' en React?",
+  "answers": [
+    "Un dato que se pasa de un componente padre a un hijo",
+    "Una función que actualiza el estado",
+    "Una referencia a un elemento DOM",
+    "Una propiedad CSS aplicada a un componente"
+  ],
+  "correct": "Un dato que se pasa de un componente padre a un hijo",
+  "category": "react"
+},
+{
+  "_id": "66bb9dbfe9b4d30d8500151d",
+  "question": "¿Qué hook se usa para ejecutar código después de que un componente ha sido montado o actualizado?",
+  "answers": [
+    "useEffect",
+    "useState",
+    "useContext",
+    "useRef"
+  ],
+  "correct": "useEffect",
+  "category": "react"
+},
+{
+  "_id": "66bb9dd0e9b4d30d8500151e",
+  "question": "¿Cuál es la forma correcta de inicializar el estado en un componente funcional?",
+  "answers": [
+    "const [state, setState] = useState(valorInicial);",
+    "const state = useState(valorInicial);",
+    "this.state = valorInicial;",
+    "const state = useStateHook(valorInicial);"
+  ],
+  "correct": "const [state, setState] = useState(valorInicial);",
+  "category": "react"
+},
+{
+  "_id": "66bb9de0e9b4d30d8500151f",
+  "question": "¿Qué herramienta se usa comúnmente para crear una nueva aplicación React?",
+  "answers": [
+    "Create React App",
+    "Webpack",
+    "Gulp",
+    "Parcel"
+  ],
+  "correct": "Create React App",
+  "category": "react"
+},
+{
+  "_id": "66bb9df5e9b4d30d85001520",
+  "question": "¿Qué es JSX?",
+  "answers": [
+    "Una extensión de la sintaxis de JavaScript que permite escribir código similar a HTML dentro de JavaScript",
+    "Un formato de archivo para componentes de React",
+    "Una herramienta para compilar código JavaScript",
+    "Una función de React para manipular el DOM"
+  ],
+  "correct": "Una extensión de la sintaxis de JavaScript que permite escribir código similar a HTML dentro de JavaScript",
+  "category": "react"
+},
+{
+  "_id": "66bb9e07e9b4d30d85001521",
+  "question": "¿Qué hook se utiliza para acceder a un valor sin causar una re-renderización?",
+  "answers": [
+    "useRef",
+    "useState",
+    "useEffect",
+    "useMemo"
+  ],
+  "correct": "useRef",
+  "category": "react"
+},
+{
+  "_id": "66bb9e17e9b4d30d85001522",
+  "question": "¿Qué propiedad de ciclo de vida de un componente de clase se utiliza para realizar operaciones después de que un componente ha sido montado?",
+  "answers": [
+    "componentDidMount",
+    "componentWillMount",
+    "componentDidUpdate",
+    "componentWillUpdate"
+  ],
+  "correct": "componentDidMount",
+  "category": "react"
+},
+{
+  "_id": "66bb9e25e9b4d30d85001523",
+  "question": "¿Cuál de los siguientes no es un hook en React?",
+  "answers": [
+    "useEvent",
+    "useState",
+    "useEffect",
+    "useContext"
+  ],
+  "correct": "useEvent",
+  "category": "react"
+},
+{
+  "_id": "66bb9e49e9b4d30d85001524",
+  "question": "¿Qué propiedad de React permite definir componentes hijos condicionales?",
+  "answers": [
+    "Renderización condicional",
+    "Propagación de props",
+    "Mapeo de props",
+    "Composición de componentes"
+  ],
+  "correct": "Renderización condicional",
+  "category": "react"
+},
+{
+  "_id": "66bb9e5be9b4d30d85001525",
+  "question": "¿Cuál es la función de 'useReducer' en React?",
+  "answers": [
+    "Manejar un estado complejo utilizando un reducer",
+    "Realizar efectos secundarios en un componente",
+    "Gestionar el contexto global",
+    "Generar componentes dinámicos"
+  ],
+  "correct": "Manejar un estado complejo utilizando un reducer",
+  "category": "react"
+},
+{
+  "_id": "66bb9e6ae9b4d30d85001526",
+  "question": "¿Qué herramienta se usa para manejar rutas en una aplicación React?",
+  "answers": [
+    "React Router",
+    "React Paths",
+    "React Navigator",
+    "React Routes"
+  ],
+  "correct": "React Router",
+  "category": "react"
+},
+{
+  "_id": "66bb9e94e9b4d30d85001527",
+  "question": "¿Qué función de React se usa para mejorar el rendimiento mediante la memorización de funciones?",
+  "answers": [
+    "useCallback",
+    "useMemo",
+    "useReducer",
+    "useEffect"
+  ],
+  "correct": "useCallback",
+  "category": "react"
+},
+{
+  "_id": "66bb9eafe9b4d30d85001528",
+  "question": "¿Qué se puede usar en React para manejar el contexto global de una aplicación?",
+  "answers": [
+    "Context API",
+    "Global Store",
+    "State API",
+    "Redux"
+  ],
+  "correct": "Context API",
+  "category": "react"
+},
+{
+  "_id": "66bb9ebde9b4d30d85001529",
+  "question": "¿Qué tipo de componente en React no tiene su propio estado?",
+  "answers": [
+    "Componente funcional",
+    "Componente de clase",
+    "Componente con estado",
+    "Componente contenedor"
+  ],
+  "correct": "Componente funcional",
+  "category": "react"
+}]
