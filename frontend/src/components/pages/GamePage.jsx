@@ -2,7 +2,7 @@ import { useTheme } from '@emotion/react';
 import { Button, Grid, Typography, useMediaQuery } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router'
-import { GameBoard } from '../molecules/GameBoard';
+import { GameBoard } from '../organisms/GameBoard';
 
 export const GamePage = () => {
 
